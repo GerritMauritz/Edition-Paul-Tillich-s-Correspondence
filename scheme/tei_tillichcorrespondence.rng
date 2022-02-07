@@ -2352,7 +2352,7 @@ Sample values include: 1] lat; 2] hbo; 3] grc; 4] fra</a:documentation>
          <ref name="macro.paraContent"/>
          <optional>
             <attribute name="rend">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text. possible values are: b (bold), i (italic), u (underlined), uu (double underlined), g (letterspaced), k (small caps), aq (antiqua), et (indented text), right (right-aligned), sub (subscript), sup (superscript), smaller (smaller), larger (larger), blue/brown/red (colored), in (initialed), print (printed text in handwritten text)</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text. possible values are: b (bold), i (italic), u (underlined), uu (double underlined), g (letterspaced), k (small caps), aq (antiqua), et (indented text), right (right-aligned), sub (subscript), sup (superscript), smaller (smaller), larger (larger), blue/brown/red (colored), in (initialed), print (printed text in handwritten text), hand (handwritten text in printed text)</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -2393,6 +2393,8 @@ Sample values include: 1] lat; 2] hbo; 3] grc; 4] fra</a:documentation>
                         <value>in</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>print</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+			<value>hand</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      </choice>
                   </oneOrMore>
